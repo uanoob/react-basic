@@ -3,10 +3,11 @@ import React from 'react';
 class Header extends React.Component {
   render() {
     return (
-      <nav className="navbar navbar-default">
-        <div className="container" />
-        <div className="navbar-header" />
-        <ul className="nav navbar-nav">
+      <nav className="nav-wrapper">
+        <a href="/" className="brand-logo">
+          Logo
+        </a>
+        <ul className="right">
           <li>
             <a href="/">Home</a>
           </li>
