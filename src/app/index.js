@@ -12,7 +12,7 @@ class App extends React.Component {
     };
     return (
       <div className="container">
-        <Header />
+        <Header homeLink="Home" />
         <Home name="Max" initialAge={27} user={user}>
           <p>This is paragraph</p>
         </Home>

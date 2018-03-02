@@ -8,6 +8,11 @@ class Home extends Component {
       age: props.initialAge,
       status: 0,
     };
+    setTimeout(() => {
+      this.setState({
+        status: 1,
+      });
+    }, 3000);
   }
   increaseAge() {
     this.setState({
